@@ -1,13 +1,13 @@
-MyToken Smart Contract
+# MyToken Smart Contract
 
 A straightforward token created with Solidity
 
-Description
+## Description
 This program is a simple smart contract written in Solidity, the programming language for creating smart contracts on the Ethereum blockchain. The MyToken contract establishes a basic token with capabilities to mint and burn tokens. It keeps track of the total supply of tokens and the balances of individual addresses. This contract serves as an introductory example of token creation and management in Solidity, laying the groundwork for more advanced token-based projects.
 
-Getting Started
-Running the Program
-To execute this program, you can use Remix, an online Solidity IDE. Start by visiting the Remix website at Remix Ethereum.
+# Getting Started
+## Running the Program
+To execute this program, you can use Remix, an online Solidity IDE. Start by visiting the Remix website at [Remix Ethereum.](https://remix.ethereum.org/)
 
 Once on the Remix site, create a new file by clicking the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., MyToken.sol). Copy and paste the following code into the file:
 
@@ -44,5 +44,8 @@ After compiling the code, deploy the contract by going to the "Deploy & Run Tran
 
 Once deployed, you can interact with the contract. You can check the token balances of specific addresses using the balances function. Verify the token abbreviation by accessing the symbol variable, which contains "WST". Confirm the token's name by retrieving the name variable, which holds "West". You can also query the total supply of tokens through the totalSupply variable. Additionally, you can mint new tokens to an address using the mint function, providing the target address and the number of tokens to be created. Conversely, you can burn tokens from an address using the burn function, specifying the address and the number of tokens to be destroyed. These features provide a comprehensive set of tools for managing and interacting with the MyToken contract on the Ethereum blockchain.
 
-Authors
+# Authors
 West Pagbilao @Westpagbilao4
+
+# License
+This project is licensed under the MIT License - see the LICENSE.md file for details
